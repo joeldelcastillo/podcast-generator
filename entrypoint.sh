@@ -8,7 +8,8 @@ git config --global --add safe.directory /github/workspace
 
 python3 /usr/bin/feed.py
  
-git add -A && commit -m "Update Feed"
+git add -A && git commit -m "Update Feed with Joel"
+
 git push --set-upstream origin master
 
 echo "==================="
